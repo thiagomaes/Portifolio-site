@@ -1,9 +1,26 @@
 @import url("elementos/navbar.css");
 @import url("elementos/projetos.css");
 
-body {
-	font-family: Arial, sans-serif;
+* {
 	margin: 0;
 	padding: 0;
-	background-color: #f1f1f1;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+:root {
+	--primary-color: #90e0ff;
+	--secondary-color: #ff333d;
+	--nav-color: #f4f4f4;
+	--text-color: #000000;
+	--light-color: #f8f8f8;
+	--dark-color: #23192d;
+}
+
+body {
+	background-color: var(--light-color);
+	color: var(--text-color);
 }

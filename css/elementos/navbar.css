@@ -1,11 +1,11 @@
 .button-container {
 	display: flex;
-	background-color: rgb(248, 248, 248);
+	background: rgba(242, 242, 242, 0.8);
 	width: 500px;
 	height: 40px;
 	align-items: center;
 	justify-content: space-around;
-	position: absolute;
+	position: fixed;
 	top: 20px; /* distância do topo */
 	left: 50%;
 	transform: translateX(-50%);
@@ -16,19 +16,20 @@
 .button {
 	outline: 0 !important;
 	border: 0 !important;
-	padding: 6px 20px;
+	padding: 0.5rem 1.5rem;
 	border-radius: 20px;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #141414;
+	color: var(--text-color);
 	font-size: 14px;
-	transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.4s;
 	cursor: pointer;
 	white-space: nowrap;
+	text-decoration: none;
 }
 
 .button:hover {
-	background-color: #f2f2f2;
+	background-color: #e6e6e6;
 }
